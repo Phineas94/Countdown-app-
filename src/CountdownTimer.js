@@ -19,7 +19,7 @@ const ExpiredNotice = () => {
     return (
       <div className="show-counter">
         <a
-          href="https://tapasadhikary.com"
+          href="https://phineas94.github.io/"
           target="_blank"
           rel="noopener noreferrer"
           className="countdown-link"
