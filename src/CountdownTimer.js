@@ -1,16 +1,19 @@
 import React from 'react';
 import { useCountdown } from './hooks/useCountdown';
+import DateTimeDisplay from './DateTimeDisplay';
+
 
 // this component show the expired notice with a text. 
 const ExpiredNotice = () => {
-    return (
-      <div className="expired-notice">
-        <span>Expired!!!</span>
-        <p>Please select a future date and time.</p>
-      </div>
-    );
-  };
-  
+  return (
+    <div className="expired-notice">
+      <span>Expired!!!</span>
+      <p>Please select a future date and time.</p>
+    </div>
+  );
+};
+
+
 
   const ShowCounter = ({ days, hours, minutes, seconds }) => {
     return (
@@ -50,3 +53,5 @@ const CountdownTimer = ({ targetDate }) => {
     );
   }
 };
+
+export default CountdownTimer;
